@@ -19,5 +19,11 @@ class LoginActivity : BaseActivity() {
             val intent = Intent(this, RegisterActivity::class.java)
             startActivity(intent)
         }
+
+        tv_esqueci_minha_senha.setOnClickListener {
+            val intent = Intent(this, PasswordRecoverActivity::class.java)
+            startActivity(intent)
+        }
+
     }
 }

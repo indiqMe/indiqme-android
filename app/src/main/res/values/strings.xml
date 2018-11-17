@@ -6,5 +6,6 @@
     <string name="entrar">Entrar</string>
     <string name="cadastre_se">Cadastre-se</string>
     <string name="esqueci_minha_senha">Esqueci Minha Senha</string>
+    <string name="recuperar_senha">Recuperar Senha</string>
 
 </resources>
