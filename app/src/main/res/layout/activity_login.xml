@@ -80,13 +80,18 @@
             app:fontFamily="@font/montserrat_medium" />
     </android.support.design.widget.TextInputLayout>
 
-    <android.support.design.widget.TextInputLayout
-        android:layout_width="368dp"
+    <Button
+        android:id="@+id/btn_entrar"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="391dp">
-
-    </android.support.design.widget.TextInputLayout>
-
+        android:layout_marginTop="16dp"
+        android:background="@color/button_background"
+        android:text="@string/entrar"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        app:fontFamily="@font/montserrat_bold"
+        app:layout_constraintEnd_toEndOf="@+id/til_senha"
+        app:layout_constraintStart_toStartOf="@+id/til_senha"
+        app:layout_constraintTop_toBottomOf="@+id/til_senha" />
 
 </android.support.constraint.ConstraintLayout>

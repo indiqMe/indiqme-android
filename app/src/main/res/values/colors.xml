@@ -5,7 +5,6 @@
     <color name="colorAccent">#B35C00</color>
     <color name="colorPrimaryLight">#69D7FF</color>
 
-
     <!-- Cores para os temas de input - modificar para customizações posteriores -->
     <color name="input_text">#FFFFFF</color>
     <color name="input_error">#FF0000</color>
@@ -13,5 +12,8 @@
     <color name="unfocused">#FFFFFF</color>
     <color name="control_activated">#FFFFFF</color>
     <color name="control_highlighted">#FFFFFF</color>
+
+    <!-- cores para o botão -->
+    <color name="button_background">#0056FF</color>
 
 </resources>
