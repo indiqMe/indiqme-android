@@ -96,7 +96,7 @@
 
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/tv_cadaste_se"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
@@ -109,7 +109,7 @@
         app:layout_constraintTop_toBottomOf="@+id/btn_entrar" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/tv_esqueci_minha_senha"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
