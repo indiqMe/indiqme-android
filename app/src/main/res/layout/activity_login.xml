@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:id="@+id/iv_logo"
+        android:layout_width="95dp"
+        android:layout_height="95dp"
+        android:layout_marginTop="32dp"
+        android:tint="@android:color/white"
+        app:layout_constraintEnd_toStartOf="@+id/tv_app_name"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_like" />
+
+    <TextView
+        android:id="@+id/tv_app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/app_name"
+        android:textColor="@android:color/white"
+        android:textSize="55sp"
+        app:fontFamily="@font/knewave_regular"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/iv_logo"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/til_usuario"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:theme="@style/TextInputLayoutAppearance"
+        app:errorTextAppearance="@style/ErrorText"
+        app:hintTextAppearance="@style/HintText"
+        app:layout_constraintEnd_toEndOf="@+id/tv_app_name"
+        app:layout_constraintStart_toStartOf="@+id/iv_logo"
+        app:layout_constraintTop_toBottomOf="@+id/tv_app_name">
+
+        <android.support.design.widget.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/usuario"
+            android:inputType="text"
+            android:maxLength="20"
+            android:maxLines="1"
+            android:textColor="@android:color/white"
+            app:fontFamily="@font/montserrat_medium" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/til_senha"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:theme="@style/TextInputLayoutAppearance"
+        app:errorTextAppearance="@style/ErrorText"
+        app:hintTextAppearance="@style/HintText"
+        app:layout_constraintEnd_toEndOf="@+id/til_usuario"
+        app:layout_constraintStart_toStartOf="@+id/til_usuario"
+        app:layout_constraintTop_toBottomOf="@+id/til_usuario">
+
+        <android.support.design.widget.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/senha"
+            android:inputType="textPassword"
+            android:maxLength="50"
+            android:maxLines="1"
+            android:textColor="@android:color/white"
+            app:fontFamily="@font/montserrat_medium" />
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:id="@+id/btn_entrar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@color/button_background"
+        android:text="@string/entrar"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        app:fontFamily="@font/montserrat_bold"
+        app:layout_constraintEnd_toEndOf="@+id/til_senha"
+        app:layout_constraintStart_toStartOf="@+id/til_senha"
+        app:layout_constraintTop_toBottomOf="@+id/til_senha" />
+
+
+    <TextView
+        android:id="@+id/tv_cadaste_se"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/cadastre_se"
+        android:textColor="@android:color/white"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:fontFamily="@font/montserrat_regular"
+        app:layout_constraintStart_toStartOf="@+id/btn_entrar"
+        app:layout_constraintTop_toBottomOf="@+id/btn_entrar" />
+
+    <TextView
+        android:id="@+id/tv_esqueci_minha_senha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="@string/esqueci_minha_senha"
+        android:textColor="@android:color/white"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:fontFamily="@font/montserrat_regular"
+        app:layout_constraintEnd_toEndOf="@+id/btn_entrar"
+        app:layout_constraintTop_toBottomOf="@+id/btn_entrar" />
+</android.support.constraint.ConstraintLayout>

@@ -2,11 +2,12 @@ package me.indiq.dev.indiqme
 
 import android.os.Bundle
 
-class HomeActivity : BaseActivity() {
+class RegisterActivity : BaseActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_home)
-        setupToolbar(getString(R.string.app_name))
+        setContentView(R.layout.activity_register)
+
+        setupToolbar(getString(R.string.cadastre_se))
     }
 }
