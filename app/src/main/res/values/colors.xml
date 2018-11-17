@@ -4,4 +4,14 @@
     <color name="colorPrimaryDark">#0078CB</color>
     <color name="colorAccent">#B35C00</color>
     <color name="colorPrimaryLight">#69D7FF</color>
+
+
+    <!-- Cores para os temas de input - modificar para customizações posteriores -->
+    <color name="input_text">#FFFFFF</color>
+    <color name="input_error">#FF0000</color>
+    <color name="control_normal">#FFFFFF</color>
+    <color name="unfocused">#FFFFFF</color>
+    <color name="control_activated">#FFFFFF</color>
+    <color name="control_highlighted">#FFFFFF</color>
+
 </resources>

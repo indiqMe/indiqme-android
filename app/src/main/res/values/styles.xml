@@ -15,9 +15,28 @@
     </style>
 
     <!-- Temas para a Toolbar que vai substitiuir a ActionBar  - ver /res/layout/toolbar.xml -->
-    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
-    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
 
+    <!-- Tema para os inputs -->
+    <style name="HintText" parent="TextAppearance.Design.Hint">
+        <item name="android:textColor">@color/input_text</item>
+        <item name="android:textSize">22sp</item>
+    </style>
+
+    <style name="ErrorText" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/input_error</item>
+        <item name="android:textSize">22sp</item>
+    </style>
+
+    <style name="TextInputLayoutAppearance" parent="Widget.Design.TextInputLayout">
+        <item name="android:textColor">@color/input_text</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColorHint">@color/unfocused</item>
+        <item name="colorControlNormal">@color/control_normal</item>
+        <item name="colorControlActivated">@color/control_activated</item>
+        <item name="colorControlHighlight">@color/control_highlighted</item>
+    </style>
 </resources>

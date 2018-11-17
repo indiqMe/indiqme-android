@@ -1,3 +1,8 @@
 <resources>
-    <string name="app_name">Indiqme</string>
+    <string name="app_name">IndiqMe</string>
+
+    <string name="usuario">Usuário</string>
+    <string name="senha">Senha</string>
+    <string name="entrar">Entrar</string>
+
 </resources>
