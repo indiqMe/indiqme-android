@@ -1,8 +1,9 @@
-package me.indiq.dev.indiqme
+package me.indiq.dev.indiqme.ui.activity
 
 import android.support.v7.app.AppCompatActivity
 import android.support.v7.widget.Toolbar
 import android.view.MenuItem
+import me.indiq.dev.indiqme.R
 
 open class BaseActivity : AppCompatActivity() {
 
@@ -15,6 +16,7 @@ open class BaseActivity : AppCompatActivity() {
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
 
     }
+
     override fun onOptionsItemSelected(item: MenuItem?): Boolean {
         return if (item?.itemId == android.R.id.home) {
             finish()
