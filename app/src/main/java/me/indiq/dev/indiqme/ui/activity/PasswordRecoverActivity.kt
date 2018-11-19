@@ -1,7 +1,7 @@
-package me.indiq.dev.indiqme
+package me.indiq.dev.indiqme.ui.activity
 
-import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import me.indiq.dev.indiqme.R
 
 class PasswordRecoverActivity : BaseActivity() {
 
