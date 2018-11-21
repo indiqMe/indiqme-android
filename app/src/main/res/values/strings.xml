@@ -8,4 +8,7 @@
     <string name="esqueci_minha_senha">Esqueci Minha Senha</string>
     <string name="recuperar_senha">Recuperar Senha</string>
 
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
 </resources>
