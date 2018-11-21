@@ -1,8 +1,9 @@
-package me.indiq.dev.indiqme
+package me.indiq.dev.indiqme.Activities
 
 import android.content.Intent
 import android.os.Bundle
 import kotlinx.android.synthetic.main.activity_login.*
+import me.indiq.dev.indiqme.R
 
 class LoginActivity : BaseActivity() {
 

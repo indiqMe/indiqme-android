@@ -12,6 +12,8 @@
     <color name="unfocused">#FFFFFF</color>
     <color name="control_activated">#FFFFFF</color>
     <color name="control_highlighted">#FFFFFF</color>
+    <color name="navuncheck">#FFFFFF</color>
+    <color name="navcheck">#0808e2</color>
 
     <!-- cores para o botão -->
     <color name="button_background">#0056FF</color>

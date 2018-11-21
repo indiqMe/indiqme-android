@@ -1,8 +1,9 @@
-package me.indiq.dev.indiqme
+package me.indiq.dev.indiqme.Activities
 
 import android.support.v7.app.AppCompatActivity
 import android.support.v7.widget.Toolbar
 import android.view.MenuItem
+import me.indiq.dev.indiqme.R
 
 open class BaseActivity : AppCompatActivity() {
 

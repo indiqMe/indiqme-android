@@ -1,6 +1,7 @@
-package me.indiq.dev.indiqme
+package me.indiq.dev.indiqme.Activities
 
 import android.os.Bundle
+import me.indiq.dev.indiqme.R
 
 class RegisterActivity : BaseActivity() {
 
