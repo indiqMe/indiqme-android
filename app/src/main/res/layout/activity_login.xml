@@ -1,131 +1,98 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bg_login_blue"
+    android:background="@drawable/background_green_gradient"
     tools:context=".Activities.LoginActivity">
 
-
-    <TextView
-        android:id="@+id/tv_app_name"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="64dp"
-        android:gravity="center"
-        android:text="@string/app_name"
-        android:textColor="@android:color/white"
-        android:textSize="55sp"
-        app:fontFamily="@font/montserrat_medium"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-
-    <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/til_usuario"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="24dp"
-        android:layout_marginLeft="24dp"
-        android:layout_marginTop="64dp"
-        android:layout_marginEnd="24dp"
-        android:layout_marginRight="24dp"
-        app:hintEnabled="false"
-        android:theme="@style/TextInputLayoutAppearance"
-        app:errorTextAppearance="@style/ErrorText"
-        app:hintTextAppearance="@style/HintText"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tv_app_name">
-
-        <com.google.android.material.textfield.TextInputEditText
-            android:layout_width="match_parent"
+    <android.support.design.widget.TextInputLayout
+            android:id="@+id/til_usuario"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:drawableStart="@drawable/ic_email_white_24dp"
-            android:drawableLeft="@drawable/ic_email_white_24dp"
-            android:drawablePadding="16dp"
-            android:hint="@string/usuario"
-            android:inputType="text"
-            android:maxLength="20"
-            android:maxLines="1"
-            android:textColor="@android:color/white"
-            app:fontFamily="@font/montserrat_medium" />
-    </com.google.android.material.textfield.TextInputLayout>
+            android:theme="@style/TextInputLayoutAppearance"
+            app:errorTextAppearance="@style/ErrorText"
+            app:hintTextAppearance="@style/HintText"
+            app:layout_constraintTop_toBottomOf="@+id/homeTitle" android:layout_marginStart="32dp"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="32dp"
+            android:layout_marginEnd="32dp"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginRight="32dp"
+            android:layout_marginTop="100dp"
+            app:hintEnabled="false">
 
-    <com.google.android.material.textfield.TextInputLayout
+        <android.support.design.widget.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_email"
+                android:hint="@string/usuario"
+                android:inputType="text"
+                android:maxLength="20"
+                android:maxLines="1"
+                android:textSize="20sp"
+                android:textColor="@android:color/white"
+                />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
         android:id="@+id/til_senha"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="18dp"
-        app:hintEnabled="false"
+        android:layout_marginTop="8dp"
         android:theme="@style/TextInputLayoutAppearance"
         app:errorTextAppearance="@style/ErrorText"
         app:hintTextAppearance="@style/HintText"
         app:layout_constraintEnd_toEndOf="@+id/til_usuario"
         app:layout_constraintStart_toStartOf="@+id/til_usuario"
-        app:layout_constraintTop_toBottomOf="@+id/til_usuario">
+        app:layout_constraintTop_toBottomOf="@+id/til_usuario"
+        app:hintEnabled="false">
 
-        <com.google.android.material.textfield.TextInputEditText
+        <android.support.design.widget.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:drawableStart="@drawable/ic_lock_white_24dp"
-            android:drawableLeft="@drawable/ic_lock_white_24dp"
-            android:drawablePadding="16dp"
+            android:drawableLeft="@drawable/ic_lock"
             android:hint="@string/senha"
             android:inputType="textPassword"
             android:maxLength="50"
             android:maxLines="1"
+            android:textSize="20sp"
             android:textColor="@android:color/white"
-            app:fontFamily="@font/montserrat_medium" />
-    </com.google.android.material.textfield.TextInputLayout>
+            app:hintEnabled="false"
+ />
+    </android.support.design.widget.TextInputLayout>
 
     <Button
-        android:id="@+id/btn_entrar"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:layout_marginBottom="8dp"
-        android:background="@drawable/round_button"
-        android:text="@string/conectar"
-        android:textAllCaps="false"
-        android:textColor="#070000"
-        android:textSize="18sp"
-        app:fontFamily="@font/montserrat_medium"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/til_senha"
-        app:layout_constraintStart_toStartOf="@+id/til_senha"
-        app:layout_constraintTop_toBottomOf="@+id/tv_esqueci_minha_senha" />
+            android:id="@+id/btn_entrar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/button_radius"
+            android:text="@string/entrar"
+            android:textSize="16sp"
+            app:fontFamily="@font/montserrat_bold"
+            app:layout_constraintEnd_toEndOf="@+id/til_senha"
+            app:layout_constraintStart_toStartOf="@+id/til_senha"
+            app:layout_constraintTop_toBottomOf="@+id/til_senha"/>
 
 
     <TextView
         android:id="@+id/tv_cadaste_se"
         android:layout_width="wrap_content"
-        android:layout_height="40dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
+        android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
-        android:gravity="center"
         android:text="@string/cadastre_se"
-        android:textAlignment="center"
         android:textColor="@android:color/white"
         android:textSize="14sp"
         android:textStyle="bold"
         app:fontFamily="@font/montserrat_regular"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_entrar"
-        app:layout_constraintVertical_bias="0.86" />
+        app:layout_constraintStart_toStartOf="@+id/btn_entrar"
+        app:layout_constraintTop_toBottomOf="@+id/btn_entrar" />
 
     <TextView
         android:id="@+id/tv_esqueci_minha_senha"
         android:layout_width="wrap_content"
-        android:layout_height="40dp"
-        android:layout_marginTop="8dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:text="@string/esqueci_minha_senha"
@@ -134,5 +101,14 @@
         android:textStyle="bold"
         app:fontFamily="@font/montserrat_regular"
         app:layout_constraintEnd_toEndOf="@+id/btn_entrar"
-        app:layout_constraintTop_toBottomOf="@+id/til_senha" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+        app:layout_constraintTop_toBottomOf="@+id/btn_entrar" />
+    <TextView
+            android:text="@string/indiq_me"
+            android:textColor="@android:color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/homeTitle" android:textSize="50sp"
+            android:layout_marginTop="50dp" app:layout_constraintTop_toTopOf="parent" android:layout_marginStart="8dp"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="8dp" android:layout_marginEnd="8dp"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginRight="8dp"/>
+</android.support.constraint.ConstraintLayout>
