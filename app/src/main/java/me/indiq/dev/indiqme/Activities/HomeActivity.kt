@@ -1,8 +1,8 @@
 package me.indiq.dev.indiqme.Activities
 
 import android.os.Bundle
-import com.google.android.material.bottomnavigation.BottomNavigationView
-import androidx.fragment.app.Fragment
+import android.support.design.widget.BottomNavigationView
+import android.support.v4.app.Fragment
 import me.indiq.dev.indiqme.Fragments.IndicadoFragment
 import me.indiq.dev.indiqme.Fragments.ManutencaoFragment
 import me.indiq.dev.indiqme.Fragments.PerfilFragment

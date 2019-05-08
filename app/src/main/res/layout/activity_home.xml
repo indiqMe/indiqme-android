@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Activities.HomeActivity">
 
-    <androidx.constraintlayout.widget.ConstraintLayout
+    <android.support.constraint.ConstraintLayout
         android:id="@+id/constraintLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -15,7 +15,7 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <include layout="@layout/toolbar"/>
-    </androidx.constraintlayout.widget.ConstraintLayout>
+    </android.support.constraint.ConstraintLayout>
 
     <FrameLayout
             android:id="@+id/container"
@@ -28,7 +28,7 @@
             app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@+id/constraintLayout"
             app:layout_constraintBottom_toTopOf="@+id/navigationView"/>
 
-    <com.google.android.material.bottomnavigation.BottomNavigationView
+    <android.support.design.widget.BottomNavigationView
             android:id="@+id/navigationView"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -43,4 +43,4 @@
             app:itemTextColor="@color/bottom_nav_color"
             app:menu="@menu/navigation"/>
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+</android.support.constraint.ConstraintLayout>
