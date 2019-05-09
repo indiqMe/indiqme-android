@@ -11,5 +11,8 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="indiq_me">Indiq.Me</string>
+    <string name="cadastroDadosPessoal">Cadastro(Dados Pessoal)</string>
+    <string name="avancar">Avançar</string>
+    <string name="nome">Nome</string>
 
 </resources>

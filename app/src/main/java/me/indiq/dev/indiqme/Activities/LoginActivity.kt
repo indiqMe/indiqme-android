@@ -3,6 +3,7 @@ package me.indiq.dev.indiqme.Activities
 import android.content.Intent
 import android.os.Bundle
 import kotlinx.android.synthetic.main.activity_login.*
+import me.indiq.dev.indiqme.Activities.RegisterSteps.RegisterPersonalData
 import me.indiq.dev.indiqme.R
 
 class LoginActivity : BaseActivity() {
@@ -17,7 +18,7 @@ class LoginActivity : BaseActivity() {
         }
 
         tv_cadaste_se.setOnClickListener {
-            val intent = Intent(this, RegisterActivity::class.java)
+            val intent = Intent(this, RegisterPersonalData::class.java)
             startActivity(intent)
         }
 
