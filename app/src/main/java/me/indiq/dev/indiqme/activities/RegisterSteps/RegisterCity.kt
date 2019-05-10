@@ -1,7 +1,7 @@
-package me.indiq.dev.indiqme.Activities.RegisterSteps
+package me.indiq.dev.indiqme.activities.RegisterSteps
 
 import android.os.Bundle
-import me.indiq.dev.indiqme.Activities.BaseActivity
+import me.indiq.dev.indiqme.activities.BaseActivity
 import me.indiq.dev.indiqme.R
 
 class RegisterCity : BaseActivity() {

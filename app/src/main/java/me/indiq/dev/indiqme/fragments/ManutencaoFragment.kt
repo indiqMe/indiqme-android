@@ -1,7 +1,5 @@
-package me.indiq.dev.indiqme.Fragments
+package me.indiq.dev.indiqme.fragments
 
-import android.content.Context
-import android.net.Uri
 import android.os.Bundle
 import android.support.v4.app.Fragment
 import android.view.LayoutInflater
@@ -9,6 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 
 import me.indiq.dev.indiqme.R
+
 class ManutencaoFragment : Fragment() {
 
     companion object {

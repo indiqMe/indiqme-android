@@ -1,9 +1,11 @@
-package me.indiq.dev.indiqme.Activities
+package me.indiq.dev.indiqme.activities
 
 import android.content.Intent
 import android.os.Bundle
-import kotlinx.android.synthetic.main.activity_login.*
-import me.indiq.dev.indiqme.Activities.RegisterSteps.RegisterPersonalData
+import kotlinx.android.synthetic.main.activity_login.btn_entrar
+import kotlinx.android.synthetic.main.activity_login.tv_cadaste_se
+import kotlinx.android.synthetic.main.activity_login.tv_esqueci_minha_senha
+import me.indiq.dev.indiqme.activities.RegisterSteps.RegisterPersonalData
 import me.indiq.dev.indiqme.R
 
 class LoginActivity : BaseActivity() {

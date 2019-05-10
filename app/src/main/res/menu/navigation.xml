@@ -2,18 +2,18 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-            android:id="@+id/navigation_indicado"
-            android:icon="@drawable/indicado"
-            android:title="Indicado"/>
+        android:id="@+id/navigation_indicado"
+        android:icon="@drawable/ic_indicado"
+        android:title="@string/indicado" />
 
     <item
-            android:id="@+id/navigation_manutencao"
-            android:icon="@drawable/manutencao"
-            android:title="Manutencão"/>
+        android:id="@+id/navigation_manutencao"
+        android:icon="@drawable/ic_manutencao"
+        android:title="@string/manutencao" />
 
     <item
-            android:id="@+id/navigation_perfil"
-            android:icon="@drawable/perfil"
-            android:title="Perfil"/>
+        android:id="@+id/navigation_perfil"
+        android:icon="@drawable/ic_perfil"
+        android:title="@string/perfil" />
 
 </menu>

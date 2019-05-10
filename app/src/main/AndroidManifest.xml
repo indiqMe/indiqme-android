@@ -3,20 +3,15 @@
           package="me.indiq.dev.indiqme">
 
     <application
-            android:allowBackup="true"
-            android:icon="@mipmap/ic_launcher"
-            android:label="@string/app_name"
-            android:roundIcon="@mipmap/ic_launcher_round"
-            android:supportsRtl="true"
-            android:theme="@style/AppTheme.NoActionBar">
-        <activity android:name=".Activities.RegisterSteps.RegisterCity">
-        </activity>
-        <activity
-                android:name=".Activities.RegisterSteps.RegisterPersonalData"
-                android:windowSoftInputMode="adjustResize">
-        </activity>
-        <activity android:name=".Activities.HomeActivity"/>
-        <activity android:name=".Activities.LoginActivity">
+        android:allowBackup="true"
+        android:fullBackupContent="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity android:name=".activities.HomeActivity" />
+        <activity android:name=".activities.LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <action android:name="android.intent.action.VIEW"/>
@@ -24,7 +19,12 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".Activities.PasswordRecoverActivity"/>
+        <activity android:name=".activities.PasswordRecoverActivity"/>
+        <activity
+                android:name=".activities.RegisterSteps.RegisterPersonalData"
+                android:windowSoftInputMode="adjustResize">
+        </activity>
+        <activity android:name=".activities.RegisterSteps.RegisterCity"/>
     </application>
 
 </manifest>

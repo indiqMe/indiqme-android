@@ -1,9 +1,9 @@
-package me.indiq.dev.indiqme.Activities.RegisterSteps
+package me.indiq.dev.indiqme.activities.RegisterSteps
 
 import android.content.Intent
 import android.os.Bundle
 import kotlinx.android.synthetic.main.activity_register_personal_data.*
-import me.indiq.dev.indiqme.Activities.BaseActivity
+import me.indiq.dev.indiqme.activities.BaseActivity
 import me.indiq.dev.indiqme.R
 
 class RegisterPersonalData : BaseActivity() {
