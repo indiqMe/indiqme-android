@@ -1,4 +1,4 @@
-package me.indiq.dev.indiqme.Activities
+package me.indiq.dev.indiqme.activities
 
 import android.os.Bundle
 import me.indiq.dev.indiqme.R

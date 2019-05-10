@@ -3,7 +3,6 @@
     <color name="colorPrimary">#3EB3A9</color>
     <color name="colorPrimaryDark">#ff42959a</color>
     <color name="colorAccent">#B35C00</color>
-    <color name="colorPrimaryLight">#69D7FF</color>
 
     <!-- Cores para os temas de input - modificar para customizações posteriores -->
     <color name="input_text">#FFFFFF</color>
@@ -12,10 +11,6 @@
     <color name="unfocused">#FFFFFF</color>
     <color name="control_activated">#FFFFFF</color>
     <color name="control_highlighted">#FFFFFF</color>
-    <color name="navuncheck">#FFFFFF</color>
-    <color name="navcheck">#0808e2</color>
 
-    <!-- cores para o botão -->
-    <color name="button_background">#0056FF</color>
-
+    <color name="white_70">#B3FFFFFF</color>
 </resources>

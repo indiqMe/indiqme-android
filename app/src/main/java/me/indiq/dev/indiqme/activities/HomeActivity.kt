@@ -1,12 +1,12 @@
-package me.indiq.dev.indiqme.Activities
+package me.indiq.dev.indiqme.activities
 
 import android.os.Bundle
 import android.support.design.widget.BottomNavigationView
 import android.support.v4.app.Fragment
-import me.indiq.dev.indiqme.Fragments.IndicadoFragment
-import me.indiq.dev.indiqme.Fragments.ManutencaoFragment
-import me.indiq.dev.indiqme.Fragments.PerfilFragment
 import me.indiq.dev.indiqme.R
+import me.indiq.dev.indiqme.fragments.IndicadoFragment
+import me.indiq.dev.indiqme.fragments.ManutencaoFragment
+import me.indiq.dev.indiqme.fragments.PerfilFragment
 
 class HomeActivity : BaseActivity() {
 
