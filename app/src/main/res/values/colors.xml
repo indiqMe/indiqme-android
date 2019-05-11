@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="colorPrimary">#3EB3A9</color>
-    <color name="colorPrimaryDark">#ff42959a</color>
+    <color name="colorPrimaryDark">#42959A</color>
     <color name="colorAccent">#B35C00</color>
 
     <!-- Cores para os temas de input - modificar para customizações posteriores -->

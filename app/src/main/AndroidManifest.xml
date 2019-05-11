@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="me.indiq.dev.indiqme">
+          package="me.indiq.dev.indiqme">
 
     <application
         android:allowBackup="true"
@@ -13,14 +13,18 @@
         <activity android:name=".activities.HomeActivity" />
         <activity android:name=".activities.LoginActivity">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <action android:name="android.intent.action.VIEW" />
+                <action android:name="android.intent.action.MAIN"/>
+                <action android:name="android.intent.action.VIEW"/>
 
-                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".activities.RegisterActivity" />
-        <activity android:name=".activities.PasswordRecoverActivity" />
+        <activity android:name=".activities.PasswordRecoverActivity"/>
+        <activity
+                android:name=".activities.RegisterSteps.RegisterPersonalData"
+                android:windowSoftInputMode="adjustResize">
+        </activity>
+        <activity android:name=".activities.RegisterSteps.RegisterCity"/>
     </application>
 
 </manifest>

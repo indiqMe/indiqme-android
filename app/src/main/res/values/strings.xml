@@ -12,5 +12,9 @@
     <string name="indicado">Indicado</string>
     <string name="manutencao">Manutencão</string>
     <string name="perfil">Perfil</string>
+    <string name="cadastroDadosPessoal">Cadastro(Dados Pessoal)</string>
+    <string name="avancar">Avançar</string>
+    <string name="nome">Nome</string>
+    <string name="cadastroCidade">Cadastro(Cidade)</string>
 
 </resources>
