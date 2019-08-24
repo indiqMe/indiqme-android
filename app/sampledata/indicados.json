@@ -1,0 +1,46 @@
+{
+  "indicados": [
+    {
+      "name": "Daniel Saraiva de Araujo",
+      "email": "daniel.saraiva@gmail.com - São Paulo",
+      "skills": "CSharp, Java, Kotlin, HTML, CSS, Javascript..."
+    },
+    {
+      "name": "Jose Carlos Pereira",
+      "email": "jose.carlos@gmail.com - São Paulo",
+      "skills": "C++, C, Delphi, Cobol, Javascript..."
+    },
+    {
+      "name": "Jorge Rabello",
+      "email": "jorge.rabello@gmail.com - São Paulo",
+      "skills": "Kotlin, Java, Oracle, Clojure, Go..."
+    },
+    {
+      "name": "Pedro de Lara",
+      "email": "pedro.lara@gmail.com - Campinas",
+      "skills": "Swoft, Java, Kotlin, Xamarin, Ionic, React Native..."
+    },    {
+      "name": "Ana",
+      "email": "pedro.lara@gmail.com - Campinas",
+      "skills": "Swoft, Java, Kotlin, Xamarin, Ionic, React Native..."
+    },    {
+      "name": "Maria",
+      "email": "pedro.lara@gmail.com - Campinas",
+      "skills": "Swoft, Java, Kotlin, Xamarin, Ionic, React Native..."
+    },    {
+      "name": "Duda",
+      "email": "pedro.lara@gmail.com - Campinas",
+      "skills": "Swoft, Java, Kotlin, Xamarin, Ionic, React Native..."
+    },    {
+      "name": "Mariana",
+      "email": "pedro.lara@gmail.com - Campinas",
+      "skills": "Swoft, Java, Kotlin, Xamarin, Ionic, React Native..."
+    },
+    {
+      "name": "Carolina",
+      "email": "pedro.lara@gmail.com - Campinas",
+      "skills": "Swoft, Java, Kotlin, Xamarin, Ionic, React Native..."
+    }
+  ]
+}
+
