@@ -1,4 +1,4 @@
-package me.indiq.dev.indiqme.fragments
+package me.indiq.dev.indiqme.ui.fragments
 
 
 import android.os.Bundle

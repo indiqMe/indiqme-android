@@ -4,9 +4,9 @@ import android.os.Bundle
 import android.support.design.widget.BottomNavigationView
 import android.support.v4.app.Fragment
 import me.indiq.dev.indiqme.R
-import me.indiq.dev.indiqme.fragments.IndicadoFragment
-import me.indiq.dev.indiqme.fragments.ManutencaoFragment
-import me.indiq.dev.indiqme.fragments.PerfilFragment
+import me.indiq.dev.indiqme.ui.fragments.IndicadoFragment
+import me.indiq.dev.indiqme.ui.fragments.ManutencaoFragment
+import me.indiq.dev.indiqme.ui.fragments.PerfilFragment
 
 class HomeActivity : BaseActivity() {
 

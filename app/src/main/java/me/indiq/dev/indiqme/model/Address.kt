@@ -1,8 +1,7 @@
 package me.indiq.dev.indiqme.model
 
-data class Usuario(
-    val name: String,
-    val email: String,
+data class Address(
+    val id: Long,
     val street: String,
     val number: String,
     val complement: String,
@@ -10,8 +9,5 @@ data class Usuario(
     val postalCode: String,
     val city: String,
     val state: String,
-    val country: String,
-    val linkedin: String,
-    val phone: String,
-    val password: String
+    val country: String
 )

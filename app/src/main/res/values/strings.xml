@@ -16,5 +16,8 @@
     <string name="avancar">Avançar</string>
     <string name="nome">Nome</string>
     <string name="cadastroCidade">Cadastro(Cidade)</string>
+    <string name="email">E-mail:</string>
+    <string name="telefone">Telefone:</string>
+    <string name="tecnologias">Tecnologias:</string>
 
 </resources>
